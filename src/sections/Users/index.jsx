@@ -11,8 +11,6 @@ function UsersSection() {
             .then((data) => setUsers(data))
     }, [])
 
-    console.log(users)
-
     return (
         <section>
             <h2>Users Section</h2>
